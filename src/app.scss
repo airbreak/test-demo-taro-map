@@ -1,0 +1,9 @@
+page {
+  background-color: rgba(248,248,248, 1);
+  -webkit-overflow-scrolling: touch;
+}
+// 单元格左边
+.nut-cell-left {
+  flex: inherit !important;
+  margin-right: 30rpx;
+}

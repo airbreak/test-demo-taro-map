@@ -1,0 +1,16 @@
+{
+  "extends": ["taro/react"],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  },
+  "globals": {
+    "_BASE_URL": true,
+    "_MAPSK": true,
+    "_SHOWGPSDATE": true,
+    "wx": true,
+    "_WSS_URL": true,
+    "_DEVDEBUGGER": true,
+    "_TIMESTAMP": true
+  }
+}

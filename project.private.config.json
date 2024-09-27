@@ -1,0 +1,126 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "test",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": true
+  },
+  "libVersion": "3.2.5",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "关于我们",
+          "pathName": "pages/other/about/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "商品详情-测试",
+          "pathName": "pages/product/index/index",
+          "query": "id=1813522299938754562",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "添加nfc",
+          "pathName": "pages/nfc/add/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "服务",
+          "pathName": "pages/service/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "商品详情-生产",
+          "pathName": "pages/product/index/index",
+          "query": "id=1798207365980553218",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "pages/product/index/index",
+          "query": "id=1769753931188641793",
+          "launchMode": "singlePage",
+          "scene": 1154
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "续费套餐",
+          "pathName": "pages/renewal/package/index",
+          "query": "equipmentId=1677715236104179714",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "订单详情",
+          "pathName": "pages/renewal/orderDetail/index",
+          "query": "orderNo=1677715236104179714",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/my/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "车辆列表管理",
+          "pathName": "pages/bike/list/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "续费套餐",
+          "pathName": "pages/renewal/package/index",
+          "query": "equipmentId=869523052285534&bikeName=AI智行",
+          "scene": null
+        },
+        {
+          "name": "续费订单",
+          "pathName": "pages/renewal/orderList/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "pages/product/index/index",
+          "query": "id=1678078384351092738",
+          "scene": null
+        },
+        {
+          "name": "维修售后订单详情",
+          "pathName": "pages/serviceTicket/detail/index",
+          "query": "repairOrderId=1692009295761330178",
+          "scene": null
+        },
+        {
+          "name": "车辆分享",
+          "pathName": "pages/bike/share/index",
+          "query": "nickName=Jimmy&bikeName=羡慕吉米哥&shareCode=oserv",
+          "scene": null
+        },
+        {
+          "name": "付款",
+          "pathName": "pages/other/pay/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

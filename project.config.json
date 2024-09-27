@@ -1,0 +1,94 @@
+{
+  "miniprogramRoot": "dist/",
+  "description": "test",
+  "appid": "wx4a648ce66d703491",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": true,
+    "postcss": false,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "coverView": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": false,
+    "condition": false
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "dist/",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "登录",
+          "pathName": "pages/login/index",
+          "query": "fromType=scanCode&fromVal=869523052929040",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/my/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "车辆列表管理",
+          "pathName": "pages/bike/list/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "车辆用户管理",
+          "pathName": "pages/bike/user/index",
+          "query": "equipmentId=1677715236104179714&bikeName=羡慕吉米哥",
+          "scene": null
+        },
+        {
+          "name": "添加nfc",
+          "pathName": "pages/nfc/list/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "服务",
+          "pathName": "pages/service/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "pages/product/index/index",
+          "query": "id=1678078384351092738",
+          "scene": null
+        },
+        {
+          "name": "维修售后订单详情",
+          "pathName": "pages/serviceTicket/detail/index",
+          "query": "repairOrderId=1692009295761330178",
+          "scene": null
+        },
+        {
+          "name": "车辆分享",
+          "pathName": "pages/bike/share/index",
+          "query": "nickName=Jimmy&bikeName=羡慕吉米哥&shareCode=oserv",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  }
+}
